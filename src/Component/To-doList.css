@@ -1,0 +1,52 @@
+
+.todolist-tasks{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 30%;
+}
+.task-name{
+  cursor: pointer;
+  font-size: larger;
+}
+
+.completed-task{
+  text-decoration: line-through black;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+#addbtn{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+#removebtn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+#removebtn:hover,#addbtn:hover{
+    background-color: rgb(236, 164, 164);
+    color: rgb(255, 255, 255);
+}
+img{
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(251, 231, 237);
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
